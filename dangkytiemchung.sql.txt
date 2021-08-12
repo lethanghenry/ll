@@ -1,0 +1,7 @@
+CREATE TABLE `dangkytiemchung`.`nguoidung` ( `id` INT NOT NULL , `username` VARCHAR(50) NOT NULL , `password` VARCHAR(20) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `dangkytiemchung`.`noitiem` ( `idnoitiem` VARCHAR(50) NOT NULL , `noitiem` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `dangkytiemchung`.`doituonguutien` ( `iddoituong` VARCHAR(50) NOT NULL , `doituong` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `dangkytiemchung`.`ngaygiohentiem` ( `idngaygio` INT NOT NULL , `ngaygio` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
+SELECT * FROM `nguoidung`
+SELECT * FROM `noitiem`
+SELECT * FROM `nguoidung`
